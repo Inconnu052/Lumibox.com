@@ -3,10 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon site GitHub Pages</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Page d'accueil - Lumibox</title>
 </head>
 <body>
-    <h1>Bienvenue sur mon site !</h1>
-    <p>Mon premier site hébergé gratuitement avec GitHub Pages.</p>
+   <header>
+    <div class="language-selector">
+        <img src="images/uk-flag.jpg" alt="Anglais" onclick="changeLanguage('en')" style="width: 30px; cursor: pointer;">
+        <img src="images/de-flag.jpg" alt="Allemand" onclick="changeLanguage('de')" style="width: 30px; cursor: pointer;">
+        <img src="images/fr-flag.jpg" alt="Français" onclick="changeLanguage('fr')" style="width: 30px; cursor: pointer;">
+    </div>
+    <img src="Logo.jpg" alt="Logo Lumibox" class="logo" style="width: 100px;">
+    <div class="header-content">
+        <h1>Bienvenue chez Lumibox</h1>
+    </div>
+</header>
+
+
+<div class="container">
+    <section class="intro">
+        <h2>Votre messagerie électronique, simplifiée</h2>
+        <p>Découvrez comment Lumibox peut transformer votre expérience de messagerie.</p>
+    </section>
+
+
+        <section class="features">
+            <div class="feature">
+                <h3>Stockage illimité</h3>
+                <p>Profitez d'un stockage illimité pour tous vos e-mails.</p>
+            </div>
+            <div class="feature">
+                <h3>Sécurité avancée</h3>
+                <p>Vos données sont protégées avec les dernières technologies de sécurité.</p>
+            </div>
+            <div class="feature">
+                <h3>Interface intuitive</h3>
+                <p>Une interface conviviale qui rend la navigation facile et rapide.</p>
+            </div>
+        </section>
+
+        <section class="stats">
+            <h2>Statistiques clés</h2>
+            <div class="stat-cards">
+                <div class="stat-card">
+                    <h3>1M+</h3>
+                    <p>Utilisateurs satisfaits</p>
+                </div>
+                <div class="stat-card">
+                    <h3>99.9%</h3>
+                    <p>Taux de disponibilité</p>
+                </div>
+                <div class="stat-card">
+                    <h3>500K</h3>
+                    <p>E-mails envoyés chaque jour</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="#" class="cta-button">Créer votre compte maintenant</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lumibox. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/languages.js"></script>
 </body>
 </html>
